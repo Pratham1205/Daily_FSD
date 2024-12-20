@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPS</title>
+</head>
+<body>
+    <script>
+        let num=prompt("Enter a number");
+        document.write("Table of",num,"is "+"<br>")
+        for(let i=1;i<=10;i++){
+            document.write(num,"*",i,"=",i*num+"<br>");
+        }
+
+        let arr=["a",'b','c','d'];
+        for(x in arr){
+            document.write(arr[x]+"<br>");
+        }
+        
+        let info={
+            fname:"Pratham",
+            lname:"Aggarwal",
+            age:19,
+            mob:8383086873,
+            mail:"pratham.agg2021@gmai.com"
+        }
+        for(x in info){
+            document.write(`${info[x]} <br>`);
+        }
+
+        let fname=["Abhay","Saket","nitin","Vinay","Prince"];
+        let lname=["Singh","Pal","Kumar","jain","Sain"]
+        for(x in fname){
+            document.write(`${fname[x] + "  " + lname[x]} <br>`);
+        }
+
+
+        
+        
+        //wap to check whether a mobile number is valid or not
+        let mobile=prompt("Enter a mobile number");
+        if(mobile.length!=10 || isNaN(mobile)){
+                document.write("InValid mobile number");
+            }
+            else{
+                    document.write("valid mobile number");
+                }
+        
+        
+        // //wap to count vowels in your names
+        const vowels="aeiouAEIOU";
+        let name=prompt("Enter a name");
+        var count=0;
+        for(let i=0;i<=name.length;i++){
+            document.write(x);
+            document.write(`${name[x]}`);
+            if(name[x] in vowels){
+                count+=1
+            }
+        }
+        document.write("The number of vowels are ",count)
+        
+        
+        //wap to find double and square root of the given number
+        let nummm=prompt("Enter a number");
+        document.write("Double of the number is",nummm*2+"<br>");
+        document.write("Square root of the number is",Math.sqrt(nummm));
+        
+        
+
+    </script>
+</body>
+</html>

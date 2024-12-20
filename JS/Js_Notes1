@@ -1,0 +1,40 @@
+                                        Introduction
+1. javaScript is a cross-platform, object-based scripting language for client and server applications, it is used everywhere.
+
+2. Loose typed language.
+
+3. Interpreted at just-in-compile(Runtime) rather than compile time
+
+4.Can be embedded within HTML, commonly are used to add functionality to a web page.
+
+5. high level and multi-paradigm
+
+                                        Features
+
+1. Extends functionality of webpages
+ 
+2. Written in the HTML document
+ 
+3. Controls page elements
+ 
+4. reacts to user actions
+ 
+5. Platform independent
+ 
+6. Object oriented
+ 
+7. Valiadating data entered on HTML forms
+
+                                java Script Errors
+In java script, errors are typically catoegarised into several types. here are the main ones:
+
+Syntax error: this occurs when there is a mistake in the synax of the code. It prevents the script from being parsed and executed. 
+
+
+Q1,  Difference between programming and scripting language with example.
+Q2,  Define JavaScript with its features.
+Q3,  How to declare vaiable in JS?
+Q4,  What are datatypes in Js?
+Q5,  How to embedd JS in HTML or other langyuages?
+Q6,  What is console and browser window?
+Q7,  What is object and how to create it in JS? 

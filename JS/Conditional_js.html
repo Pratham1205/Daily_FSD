@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript conditional</title>
+</head>
+
+<body>
+    <script>
+
+
+        var age=25;
+        if(age>=18){
+            alert("Yes, you are eligible to vote!")
+        }
+
+
+        let checkage=prompt("Enter your age!");
+        if(checkage>=18){
+            document.write("You are eligible");
+        }
+        else{
+            document.write("Wait until you turn 18");
+        }
+
+
+        let marks = prompt("Enter your marks to check your grade")
+        if (marks >= 90 && marks <= 100) {
+            document.write("You've got A grade")
+        }
+        else if (marks >= 80 && marks < 90) {
+            document.write("You've got B grade")
+        }
+        else if (marks >= 70 && marks < 80) {
+            document.write("You've got C grade")
+        }
+        else if (marks < 70 && marks >= 0) {
+            document.write("Oops! You've got only D grade")
+        }
+        else {
+            document.write("Enter the valid marks only!!!!!")
+        }
+
+        wap to check if number is even or not
+        let num=prompt("Enter a number to check even or odd");
+        if(num%2==0){
+            document.write(num,"\tNumber is even");
+        }
+        else{
+            document.write(num,"\tNumber is odd");
+        }
+
+
+        wap to display morning,afternoon or night as per the clock hour
+        let time=prompt("Enter the time in 24-hours format");
+        if(time>=5 && time<12){
+            document.write("Morning");
+        }
+        else if(time>=12 && time<17){
+            document.write("Afternoon");
+        }
+        else{
+            document.write("Night");
+        }
+
+        
+        wap to check whether it is hot or cold
+        let temp=prompt("ENter the temperature in celcius");
+        if(temp>=30){
+            docuemnt.write("Hot")
+        }
+        else if(temp<=15){
+            document.write("Cold")
+        }
+        else{
+            document.write("Moderate")
+        }
+
+
+        
+
+
+
+    </script>
+</body>
+
+</html>
