@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 80px 120px 100px 400px 80px;
+            gap: 10px;
+        }
+        #logo,footer{
+            background-color: antiquewhite;
+        }
+        #intro{
+            background-color: antiquewhite;
+        }
+        #head{
+            background-color: antiquewhite;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+        #box1{
+            background-color: antiquewhite;
+        }
+        #box2{
+            background-color: antiquewhite;
+        }
+        #box3{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="logo">
+            <h2>Logo</h2>
+        </div>
+
+        <div id="head">
+            <h2>Header/Banner</h2>
+        </div>
+
+        <div id="intro">
+            <h2>Intro</h2>
+        </div>
+
+        <section>
+        <div id="box1"><h2>Box1</h2></div>
+        <div id="box2"><h2>Box2</h2></div>
+        <div id="box3"><h2>Box3</h2></div>
+        </section>
+
+        <footer>
+        <h2>Footer</h2>
+        </footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX LAYOUT 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 1500px;
+            height: 850px;
+            margin: 0 auto;
+            background-color: blueviolet;
+            text-align: center;
+        }
+        #logo{
+            width: 100%;
+            height: 100px;
+            background-color: burlywood;
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            /* margin: 5px 0; */
+            background-color: slategrey;
+            align-content: center;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            background-color: greenyellow;
+            align-content: center;
+        }
+        #container{
+            width: 100%;
+            height: 500px;
+            background-color: rosybrown;
+            display: flex;
+            flex-direction: row;
+            /* margin: 5px 0; */
+            gap: 5px;
+        }
+        #sidearea{
+            width: 400px;
+            height: 500px;
+            background-color: orange;
+            float: left;
+            align-content: center;
+        }
+        #bodyarea{
+            width: 800px;
+            height: 500px;
+            background-color: green;
+            align-content: center;
+        }
+        footer{
+            width: 100%;
+            height: 80px;
+            background-color:red ;
+            align-content: center;
+        }
+    
+    </style>
+</head>
+<body>
+<main>
+    <div id="logo"><h2>Logo</h2></div>
+    <nav><h2>Navigation</h2></nav>
+    <header><h2>Header</h2></header>
+    <div id="container">
+        <div id="sidearea"><h2>Sidearea</h2></div>
+        <div id="bodyarea"><h2>Bodyarea</h2></div>
+    </div>
+
+    <footer><h2>Footer</h2></footer>
+</main>
+</body>
+</html>
